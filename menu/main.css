@@ -1,0 +1,10 @@
+.media-container-column{
+  width: 600px;
+  margin-left: 200px;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+.mbr-form{
+  border: solid thin #227 rgba(0,0,0,0.9);
+}

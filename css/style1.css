@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Regular;
+    src: url('../custom-fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: light;
+    src: url('../custom-fonts/OpenSans-Light.ttf');
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+    font-family: "Regular" !important;
+}
+
+* {
+    box-sizing: border-box !important;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    /*font-family: "Regular";*/
+    letter-spacing: 0.5px;
+}
+
+body {
+    background-color: #f7f7f7;
+    height: 100vh;
+    font-size: 12px;
+}
+.thumb{
+    position: fixed;
+    z-index: 1000;
+    top:50px;
+    left:25px;
+    background-color: rgba(0,0,0,0.5)
+}
+.map{
+    position: relative;
+    width:100%;
+    height:100vh;
+    z-index: 500;
+    background-color:#cccccc;
+}
+.navigation{
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    width:100%;
+    right:0px;
+    background-color:#1444cc;
+    z-index: 650;
+    padding:10px 0px !important;
+}
+.navigation button{
+    width:20%;
+    margin: -10px 5%;
+    padding: 10px 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    border:1px solid rgba(0,0,0,0.0);
+    border-radius:0px;
+}
+.listpalces{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right:0px;
+    height:100%;
+    width:100%;
+    background-color:rgba(255,255,255,0.8);
+    z-index: 555;
+    display: none;
+}
+.listpalces .place{
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    margin:10px;
+    background-color: #fff;
+}
+.listpalces .place:hover{
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+}
+.listpalces .place i{
+    float:left;
+    font-size:25px;
+    height:50px;
+}
+.listpalces .place h3{
+    float: left;
+    clear: left;
+}
+.listpalces .place h3{
+    float: left;
+    clear: left;
+}
+.fbplaces{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right:0px;
+    height:100%;
+    width:100%;
+    background-color:rgba(255,255,255,0.8);
+    z-index: 565;
+    display: none; 
+}
+.fbplaces .place{
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    margin:10px;
+    background-color: #fff;
+}
+.fbplaces .place img{
+    float:left;
+    font-size:25px;
+    height:50px;
+}
+
